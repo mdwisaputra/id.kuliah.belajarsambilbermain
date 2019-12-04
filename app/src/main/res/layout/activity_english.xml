@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".English" android:background="#665F5F">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="110dp" tools:srcCompat="@drawable/main"
+                android:id="@+id/imageView3" android:layout_marginTop="10dp"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="462dp" android:layout_marginTop="20dp" android:background="#3E4981">
+            <TextView
+                    android:text="BAHASA INGGRIS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView2" android:textSize="30sp"
+                    android:textStyle="bold" android:gravity="center" android:textColor="#F89B18"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:layout_marginTop="20dp">
+                <ImageView
+                        android:layout_width="205dp"
+                        android:layout_height="102dp" tools:srcCompat="@drawable/mobil"
+                        android:id="@+id/imageView4" android:layout_weight="1"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" tools:srcCompat="@drawable/bola"
+                        android:id="@+id/imageView5" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:text="CAR"
+                        android:layout_width="59dp"
+                        android:layout_height="wrap_content" android:id="@+id/textView11" android:layout_weight="1"
+                        android:textSize="25sp" android:textStyle="bold" android:textColor="#F89C18"
+                        android:gravity="center"/>
+                <TextView
+                        android:text="BALL"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView12" android:layout_weight="1"
+                        android:textColor="#F89C18" android:textSize="25sp" android:textStyle="bold"
+                        android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:text="(MOBIL)"
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content" android:id="@+id/textView13" android:layout_weight="1"
+                        android:textSize="20sp" android:textStyle="bold" android:textColor="#F89C18"
+                        android:gravity="center"/>
+                <TextView
+                        android:text="(BOLA)"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView14" android:layout_weight="1"
+                        android:gravity="center" android:textSize="20sp" android:textStyle="bold"
+                        android:textColor="#F89C18"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:layout_marginTop="20dp">
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="113dp" tools:srcCompat="@drawable/buku"
+                        android:id="@+id/imageView6" android:layout_weight="1"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" tools:srcCompat="@drawable/pensil"
+                        android:id="@+id/imageView7" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:text="BOOK"
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content" android:id="@+id/textView15" android:layout_weight="1"
+                        android:textSize="25sp" android:textStyle="bold" android:textColor="#F89C18"
+                        android:gravity="center"/>
+                <TextView
+                        android:text="PENCIL"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView16" android:layout_weight="1"
+                        android:textSize="25sp" android:textStyle="bold" android:textColor="#F89C18"
+                        android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:text="(BUKU)"
+                        android:layout_width="103dp"
+                        android:layout_height="wrap_content" android:id="@+id/textView17" android:layout_weight="1"
+                        android:textSize="25sp" android:textStyle="bold" android:gravity="center"
+                        android:textColor="#F89C18"/>
+                <TextView
+                        android:text="(PENSIL)"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView18" android:layout_weight="1"
+                        android:textSize="25sp" android:textStyle="bold" android:gravity="center"
+                        android:textColor="#F89C18"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp" app:srcCompat="@android:drawable/ic_menu_revert"
+                android:id="@+id/imageView33" android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</RelativeLayout>
